@@ -137,6 +137,7 @@ color: #000000;
 .best_sellers .flex_container{
 display: flex;
 justify-content: space-between;
+padding-bottom: 40px;
 }
 .best_sellers .flex_container h5{
 font-family: 'Roboto';
@@ -558,4 +559,26 @@ border-radius: 100px;
 padding: 8px 20px;
 text-decoration: none;
 margin-left: 140px;
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.owl-dots span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: purple;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.active span{
+background-color: deepskyblue;
+}
+.best_sellers .flex_container article img{
+    width: 309px;
 }
