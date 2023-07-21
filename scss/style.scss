@@ -36,6 +36,11 @@ header{
                     font-style: normal;
                     font-weight: 700;
                     line-height: 26.4px;
+                    &:hover{
+                        color: cadetblue;
+                        transition: 0.3s ease-in-out;
+                        
+                    }
                     }
                 }
             }
@@ -53,6 +58,11 @@ header{
                 position: relative;
                 bottom: 2px;
             }
+            img:hover{
+                transform: scale(1.1, 1.1);
+                transition: 0.3s ease-in-out;
+            }
+            
         }
       }
     }
@@ -99,14 +109,20 @@ header{
                 border: 1px solid #000;
                 background: #000;
                 text-decoration: none;
+                &:hover{
+                    background-color: cadetblue;
+                    transition: 0.3s ease-in-out;
+                    border: 1px solid cadetblue;
+                }
             }
            
         }
         .main_pic{
             position: relative;
                 left: 74px;
-            img{
-                
+            img:hover{
+                transform: scale(1.05, 1);
+                transition: 0.3s ease-in-out;
             }
         }
     }
@@ -169,6 +185,10 @@ header{
                 align-items: center;
                 img{
                     margin-bottom: 27px;
+                    &:hover{
+                        transform: scale(1.03, 1.03);
+                        transition: 0.3s ease-in-out;
+                    }
                 }
                 h5{
                     color: #000;
@@ -201,6 +221,10 @@ header{
                     font-weight: 700;
                     line-height: normal;
                     text-decoration-line: underline;
+                    &:hover{
+                        color: cadetblue;
+                        transition: 0.3s ease-in-out;
+                    }
                 }
             }
 
@@ -219,6 +243,10 @@ header{
             margin-right: 50px;
             max-width: 385px;
             max-height: 525px;
+            &:hover{
+                transition: 0.3s ease-in-out;
+                transform: rotate(5deg);
+            }
         }
         .description_text{
             padding: 60px 0;
@@ -265,6 +293,10 @@ header{
             max-width: 385px;
             max-height: 525px;
             margin-right: 0;
+            &:hover{
+                transition: 0.3s ease-in-out;
+                transform: rotate(-5deg);
+            }
         }
         .description_text{
             text-align: right;
@@ -344,6 +376,10 @@ header{
             max-width: 288px;
             .portrets_image{
                 margin-bottom: 35px;
+                &:hover{
+                    transition: 0.3s ease-in-out;
+                    transform: scale(1.03, 1.03)
+                }
             }
             h5{
                 color: #000;
@@ -376,6 +412,10 @@ header{
                 font-weight: 700;
                 line-height: normal;
                 text-decoration-line: underline;
+                &:hover{
+                    color: cadetblue;
+                    transition: 0.2s;
+                }
             }
         }
     }
@@ -441,6 +481,12 @@ header{
                     cursor: pointer;
                     display: flex;
                     margin: auto;
+                    &:hover{
+                        background-color: cadetblue;
+                        transition: 0.2s;
+                    border: 1px solid cadetblue;
+
+                    }
                 }
             }
         }
@@ -463,6 +509,10 @@ footer{
                 .links_image{
                     a{
                         margin-right: 15px;
+                    }
+                    img:hover{
+                            transform: scale(1.1, 1.1);
+                            transition: 0.2s;
                     }
                 }
             }
@@ -488,6 +538,10 @@ footer{
                             font-style: normal;
                             font-weight: 400;
                             line-height: 21px;
+                            &:hover{
+                                color: cadetblue;
+                                transition: 0.2s;
+                            }
                         }
                     }
                 }
