@@ -37,9 +37,10 @@ header{
                     font-style: normal;
                     font-weight: 700;
                     line-height: 26.4px;
+                    transition: 0.3s ease-in-out;
                     &:hover{
                         color: cadetblue;
-                        transition: 0.3s ease-in-out;
+                       
                         
                     }
                     }
@@ -55,14 +56,18 @@ header{
         align-items: center;
         a{
             margin-right: 15px;
+            transition: 0.3s ease-in-out;
             &:last-of-type{
                 margin-right: 0;
                 position: relative;
                 bottom: 2px;
             }
-            img:hover{
-                transform: scale(1.1, 1.1);
+            img {
                 transition: 0.3s ease-in-out;
+                &:hover{
+                    transform: scale(1.1, 1.1);
+                    
+                }
             }
             
         }
@@ -110,9 +115,10 @@ header{
                 border: 1px solid #000;
                 background: #000;
                 text-decoration: none;
+                transition: 0.3s ease-in-out;
                 &:hover{
                     background-color: cadetblue;
-                    transition: 0.3s ease-in-out;
+                    
                     border: 1px solid cadetblue;
                 }
             }
@@ -121,9 +127,12 @@ header{
         .main_pic{
             position: relative;
             left: 105px;
-            img:hover{
-                transform: scale(1.05, 1);
+            img{
                 transition: 0.3s ease-in-out;
+                &:hover{
+                    transform: scale(1.05, 1);
+                   
+                }
             }
         }
     }
@@ -188,9 +197,9 @@ header{
                     margin-bottom: 27px;
                     max-width: 309px;
                     max-height: 426px;
+                    transition: 0.3s ease-in-out;
                     &:hover{
                         transform: scale(1.03, 1.03);
-                        transition: 0.3s ease-in-out;
                     }
                     img{
                         width: 100%;
@@ -227,9 +236,9 @@ header{
                     font-weight: 700;
                     line-height: normal;
                     text-decoration-line: underline;
+                    transition: 0.3s ease-in-out;
                     &:hover{
                         color: cadetblue;
-                        transition: 0.3s ease-in-out;
                     }
                 }
             }
@@ -249,8 +258,8 @@ header{
             margin-right: 50px;
             max-width: 385px;
             max-height: 525px;
+            transition: 0.3s ease-in-out;
             &:hover{
-                transition: 0.3s ease-in-out;
                 transform: rotate(5deg);
             }
         }
@@ -299,8 +308,8 @@ header{
             max-width: 385px;
             max-height: 525px;
             margin-right: 0;
+            transition: 0.3s ease-in-out;
             &:hover{
-                transition: 0.3s ease-in-out;
                 transform: rotate(-5deg);
             }
         }
@@ -384,8 +393,8 @@ header{
                 margin-bottom: 35px;
                 max-width: 288px;
                 max-height: 351px;
+                transition: 0.3s ease-in-out;
                 &:hover{
-                    transition: 0.3s ease-in-out;
                     transform: scale(1.03, 1.03)
                 }
                 img{
@@ -423,9 +432,9 @@ header{
                 font-weight: 700;
                 line-height: normal;
                 text-decoration-line: underline;
+                transition: 0.3s ease-in-out; 
                 &:hover{
                     color: cadetblue;
-                    transition: 0.2s;
                 }
             }
         }
@@ -492,9 +501,9 @@ header{
                     cursor: pointer;
                     display: flex;
                     margin: auto;
+                    transition: 0.3s ease-in-out;
                     &:hover{
                         background-color: cadetblue;
-                        transition: 0.2s;
                     border: 1px solid cadetblue;
 
                     }
@@ -521,9 +530,11 @@ footer{
                     a{
                         margin-right: 15px;
                     }
-                    img:hover{
-                            transform: scale(1.1, 1.1);
-                            transition: 0.2s;
+                    img{
+                        transition: 0.3s ease-in-out;
+                        &:hover{
+                                transform: scale(1.1, 1.1);
+                        }
                     }
                 }
             }
@@ -549,9 +560,9 @@ footer{
                             font-style: normal;
                             font-weight: 400;
                             line-height: 21px;
+                            transition: 0.3s ease-in-out;
                             &:hover{
                                 color: cadetblue;
-                                transition: 0.2s;
                             }
                         }
                     }
