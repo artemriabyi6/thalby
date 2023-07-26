@@ -1,3 +1,6 @@
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel();
+    $('.header_burger').click(function(event){
+      $('.header_burger, nav').toggleClass('active')
+      $('body').toggleClass('lock')
+    })
   });
