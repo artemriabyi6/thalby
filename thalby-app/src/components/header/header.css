@@ -1,0 +1,147 @@
+header {
+    padding: 15px 0;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .container nav ul {
+    display: flex;
+    list-style: none;
+  }
+  header .container nav ul li {
+    margin-right: 28px;
+  }
+  header .container nav ul li:last-of-type {
+    margin-right: 0;
+  }
+  header .container nav ul li a {
+    text-decoration: none;
+    color: #1C1B1B;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    transition: 0.3s ease-in-out;
+  }
+  header .container nav ul li a:hover {
+    color: cadetblue;
+  }
+  header .container .main_logo {
+    position: relative;
+    right: 135px;
+  }
+  header .container .icons {
+    display: flex;
+    align-items: center;
+  }
+  header .container .icons a {
+    margin-right: 15px;
+    transition: 0.3s ease-in-out;
+  }
+  header .container .icons a:last-of-type {
+    margin-right: 0;
+    position: relative;
+    bottom: 2px;
+  }
+  header .container .icons a img {
+    transition: 0.3s ease-in-out;
+  }
+  header .container .icons a img:hover {
+    transform: scale(1.1, 1.1);
+  }
+
+    
+    @media (max-width: 1050px) {
+        header .container .main_logo{
+            position: relative;
+            left: 0px;
+        }
+       
+    }
+    
+    
+    @media (max-width: 767px) {
+        body.lock{
+            overflow: hidden;
+        }
+        header .container nav {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        transition: 0.5s ease-in-out;
+        }
+        header .container nav ul{
+            display: block;
+            text-align: center;
+        }
+        header .container nav ul li{
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+        header .container nav ul li a{
+            font-size: 20px;
+        }
+        header .container nav.active{
+            top: 0;
+            height: 100%;
+            width: 100%;
+            padding: 120px 0 0 0;
+            background-color: rgb(198, 246, 127);
+            transition: 0.5s ease-in-out;
+        }
+    
+    
+        .header_burger{
+            display: block;
+            position: relative;
+            width: 30px;
+            height: 20px;
+        }
+        .header_burger::before,
+        .header_burger::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: black;
+            transition: 0.3s ease;
+    
+        }
+        .header_burger span{
+            position: absolute;
+            top: 9px;
+            width: 100%;
+            height: 2px;
+            background-color: black;
+            transition: 0.3s ease;
+        }
+        .header_burger::before{
+            top: 0;
+        }
+        .header_burger::after{
+            bottom: 0;
+        }
+        .header_burger.active::before{
+            top: 9px;
+            transform: rotate(45deg);
+            
+        }
+        .header_burger.active::after{
+            bottom: 9px;
+            transform: rotate(-45deg);
+            
+        }
+        .header_burger.active span{
+            transform: scale(0);
+        }
+    
+        header .container .icons{
+            display: none;
+        }
+    }
+    
+    

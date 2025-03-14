@@ -1,0 +1,87 @@
+.registration {
+    padding: 80px 0;
+  }
+  .registration .container h3 {
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+  }
+  .registration .container p {
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+  }
+  .registration .container form .form_wrap {
+    max-width: 366px;
+    margin: auto;
+  }
+  .registration .container form .form_wrap .input_flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .registration .container form .form_wrap .input_flex input {
+    padding-left: 10px;
+    width: 153px;
+    height: 39px;
+    flex-shrink: 0;
+  }
+  .registration .container form .form_wrap input {
+    width: 100%;
+    padding-left: 10px;
+    height: 39px;
+    margin-bottom: 18px;
+  }
+  .registration .container form .form_wrap button {
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #000;
+    padding: 8px 23px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    transition: 0.3s ease-in-out;
+  }
+  .registration .container form .form_wrap button:hover {
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+  }
+  
+   
+    
+    @media (max-width: 350px) {
+        .registration{
+            padding: 20px 0;
+        }
+        .registration .container form .form_wrap{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .registration .container form .form_wrap .input_flex{
+            flex-direction: column;
+            align-items: center;
+        }
+        .registration .container form .form_wrap input{
+            width: 153px;
+            display: inline;
+            
+        }
+      
+    }  

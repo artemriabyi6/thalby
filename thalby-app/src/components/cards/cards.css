@@ -1,0 +1,130 @@
+.cards {
+    padding: 60px 0 240px 0;
+  }
+  .cards .container h3 {
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+  .cards .container .main_text {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+    max-width: 632px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 47px;
+  }
+  .cards .container .mini_text {
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 88px;
+  }
+  .cards .container h2 {
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 52px;
+  }
+  .cards .container .cards_flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cards .container .cards_flex article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards .container .cards_flex article .cards_img {
+    margin-bottom: 27px;
+    max-width: 309px;
+    max-height: 426px;
+    transition: 0.3s ease-in-out;
+  }
+  .cards .container .cards_flex article .cards_img:hover {
+    transform: scale(1.03, 1.03);
+  }
+  .cards .container .cards_flex article .cards_img img {
+    width: 100%;
+  }
+  .cards .container .cards_flex article h5 {
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 150px;
+    margin-bottom: 15px;
+    flex: 1 1 0;
+  }
+  .cards .container .cards_flex article p {
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  .cards .container .cards_flex article a {
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    transition: 0.3s ease-in-out;
+  }
+  .cards .container .cards_flex article a:hover {
+    color: cadetblue;
+  }
+
+  
+
+  
+    @media (max-width: 1050px) {
+        .cards{
+            padding-bottom: 0;
+        }
+        .cards .container .cards_flex {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .cards .container .cards_flex article{
+            margin-bottom: 20px;
+        }
+       
+    }
+    
+    
+   
+    
+    
+   
+   
+    
+   
